@@ -13,6 +13,8 @@ Game of life rules:
    generation.
 4. Any dead cell with exactly three neighbours comes to life.
 
+![](gameoflife.gif)
+
 ## Hardware
 
 * Arduino Uno R3
