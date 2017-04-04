@@ -16,9 +16,9 @@ Game of life rules:
 ## Hardware
 
 * Arduino Uno R3
-* LED matrix board consisting of:
-** MAX7219 Serially Interfaced, 8-Digit LED Display Driver
-** 1088AS 8x8 3mm LED matrix
+* Unidentified LED matrix board consisting of:
+  * MAX7219 Serially Interfaced, 8-Digit LED Display Driver
+  * 1088AS 8x8 3mm LED matrix
 * 5 male-to-female 1 wire patch cables
 * USB cable for sketch upload and power
 
