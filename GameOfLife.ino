@@ -10,12 +10,12 @@
 #define MAX_Y 8
 #define MAX_X 8
 // time to wait between turns
-#define TURN_DELAY 1000
+#define TURN_DELAY 800
 // how many turns per game before starting a new game
 // you can also use the reset button on the board
 #define TURNS_MAX 60
 // how many turns to wait if there are no changes before starting a new game
-#define NO_CHANGES_RESET 10
+#define NO_CHANGES_RESET 4
 
 int TURNS = 0;      // counter for turns
 int NO_CHANGES = 0; // counter for turns without changes
