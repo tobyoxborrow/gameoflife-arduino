@@ -1,0 +1,19 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.1.0
+  hooks:
+  - id: check-docstring-first
+  - id: check-added-large-files
+  - id: check-yaml
+  - id: detect-aws-credentials
+    args:
+    - --allow-missing-credentials
+  - id: detect-private-key
+  - id: double-quote-string-fixer
+  - id: end-of-file-fixer
+  - id: trailing-whitespace
+- repo: https://github.com/pocc/pre-commit-hooks
+  rev: v1.3.5
+  hooks:
+    - id: clang-format
+      args: [--style=Google]
